@@ -1,0 +1,15 @@
+<div id="error"></div>
+
+<form>
+  <label>
+    Title
+    <input type='text' name='post[title]' value="<%= post.title %>">
+  </label>
+  
+  <label>
+    Content
+    <textarea name='post[body]'><%= post.body %></textarea>
+  </label>
+  
+  <input type='submit' value='Create Post'>
+</form>
